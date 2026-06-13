@@ -164,7 +164,7 @@ $stmt->execute();
 echo json_encode(['sukses' => true]);
 ```
 ---
-4.3 Fitur Tambahan UTS
+### 4.3 Fitur Tambahan UTS
 Dark Mode: Toggle dengan JavaScript, simpan ke localStorage.
 
 Toast Notification: Notifikasi sukses/gagal.
@@ -173,8 +173,8 @@ Fetch API: Semua operasi CRUD tanpa reload halaman.
 
 ---
 
-5. Implementasi UAS (Laravel)
-5.1 Struktur Proyek (Laravel 11)
+## 5. Implementasi UAS (Laravel)
+### 5.1 Struktur Proyek (Laravel 11)
 ```
    UAS/
 ├── app/
@@ -210,7 +210,7 @@ Fetch API: Semua operasi CRUD tanpa reload halaman.
 └── composer.json
 ```
 ---
-5.2 Autentikasi (Login, Register)
+### 5.2 Autentikasi (Login, Register)
 Model User.php disesuaikan dengan tabel penulis:
 ```
 protected $table = 'penulis';
@@ -227,7 +227,7 @@ if (Auth::attempt($kredensial)) {
 ```
 RegisterController menggunakan bcrypt() untuk password.
 ---
-5.3 CRUD dengan Resource Controller
+### 5.3 CRUD dengan Resource Controller
 Contoh ArtikelController@store:
 
 ```
