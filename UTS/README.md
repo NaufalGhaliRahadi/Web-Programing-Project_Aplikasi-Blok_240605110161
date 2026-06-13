@@ -70,7 +70,7 @@ Proyek ini merupakan tugas **Ujian Tengah Semester (UTS)** yang mengimplementasi
 
 Database: `db_blog`
 
-``sql
+```sql
 -- Tabel penulis
 CREATE TABLE penulis (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -101,7 +101,9 @@ CREATE TABLE artikel (
     FOREIGN KEY (id_kategori) REFERENCES kategori_artikel(id) ON DELETE RESTRICT
 ) ENGINE=InnoDB CHARSET=utf8mb4;
 
-
+```
+## 📁 Struktur Folder
+```
 
 01-UTS-VanillaPHP/
 ├── index.php                     # Halaman utama (UI + JavaScript)
