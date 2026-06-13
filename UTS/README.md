@@ -65,38 +65,12 @@ Proyek ini merupakan tugas **Ujian Tengah Semester (UTS)** yang mengimplementasi
 - **Folder `uploads_penulis/` dan `uploads_artikel/` dilindungi oleh `.htaccess`** untuk mencegah eksekusi PHP
 
 ---
-01-UTS-VanillaPHP/
-├── index.php                     # Halaman utama (UI + JavaScript)
-├── koneksi.php                   # Koneksi ke database MySQL
-├── db_blog.sql                   # Skrip SQL untuk membuat database & tabel
-├── docker-compose.yml            # Konfigurasi Docker
-├── Dockerfile                    # Docker image
-├── ambil_penulis.php             # [READ] Daftar penulis
-├── ambil_satu_penulis.php        # [READ] Detail satu penulis
-├── simpan_penulis.php            # [CREATE] Tambah penulis
-├── update_penulis.php            # [UPDATE] Edit penulis
-├── hapus_penulis.php             # [DELETE] Hapus penulis
-├── ambil_kategori.php            # [READ] Daftar kategori
-├── ambil_satu_kategori.php       # [READ] Detail satu kategori
-├── simpan_kategori.php           # [CREATE] Tambah kategori
-├── update_kategori.php           # [UPDATE] Edit kategori
-├── hapus_kategori.php            # [DELETE] Hapus kategori
-├── ambil_artikel.php             # [READ] Daftar artikel
-├── ambil_satu_artikel.php        # [READ] Detail satu artikel
-├── simpan_artikel.php            # [CREATE] Tambah artikel
-├── update_artikel.php            # [UPDATE] Edit artikel
-├── hapus_artikel.php             # [DELETE] Hapus artikel
-├── uploads_penulis/              # Folder foto profil penulis
-│   ├── .htaccess                 # Proteksi eksekusi PHP
-│   └── default.png               # Foto profil default
-└── uploads_artikel/              # Folder gambar artikel
-    └── .htaccess                 # Proteksi eksekusi PHP
----
+
 ## 🗄️ Struktur Database
 
 Database: `db_blog`
 
-```sql
+``sql
 -- Tabel penulis
 CREATE TABLE penulis (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -129,5 +103,29 @@ CREATE TABLE artikel (
 
 
 
-
-
+01-UTS-VanillaPHP/
+├── index.php                     # Halaman utama (UI + JavaScript)
+├── koneksi.php                   # Koneksi ke database MySQL
+├── db_blog.sql                   # Skrip SQL untuk membuat database & tabel
+├── docker-compose.yml            # Konfigurasi Docker
+├── Dockerfile                    # Docker image
+├── ambil_penulis.php             # [READ] Daftar penulis
+├── ambil_satu_penulis.php        # [READ] Detail satu penulis
+├── simpan_penulis.php            # [CREATE] Tambah penulis
+├── update_penulis.php            # [UPDATE] Edit penulis
+├── hapus_penulis.php             # [DELETE] Hapus penulis
+├── ambil_kategori.php            # [READ] Daftar kategori
+├── ambil_satu_kategori.php       # [READ] Detail satu kategori
+├── simpan_kategori.php           # [CREATE] Tambah kategori
+├── update_kategori.php           # [UPDATE] Edit kategori
+├── hapus_kategori.php            # [DELETE] Hapus kategori
+├── ambil_artikel.php             # [READ] Daftar artikel
+├── ambil_satu_artikel.php        # [READ] Detail satu artikel
+├── simpan_artikel.php            # [CREATE] Tambah artikel
+├── update_artikel.php            # [UPDATE] Edit artikel
+├── hapus_artikel.php             # [DELETE] Hapus artikel
+├── uploads_penulis/              # Folder foto profil penulis
+│   ├── .htaccess                 # Proteksi eksekusi PHP
+│   └── default.png               # Foto profil default
+└── uploads_artikel/              # Folder gambar artikel
+    └── .htaccess                 # Proteksi eksekusi PHP
