@@ -1,7 +1,7 @@
 # Web Programming Project - Laporan UTS & UAS
 
 **Nama:** Naufal Ghali Rahadi  
-**NIM:** [NIM Anda]  
+**NIM:** [240605110161]  
 **Mata Kuliah:** Pemrograman Web  
 **Semester:** Genap 2025/2026  
 **Dosen:** A’la Syauqi M.Kom.
