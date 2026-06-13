@@ -326,7 +326,7 @@ Semua skenario berhasil. Aplikasi UTS dan UAS berfungsi tanpa error, memenuhi se
 - Semua fitur UAS terpenuhi: halaman publik tanpa login, controller terpisah, layout sendiri, tampilan bersih dan responsif.
 
 ---
-###
+-#-
 ---
 # Aplikasi Blog - 240605110161
 
