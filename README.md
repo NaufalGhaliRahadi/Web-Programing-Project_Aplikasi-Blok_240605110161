@@ -292,3 +292,37 @@ Semua menggunakan Bootstrap 5 dan Font Awesome 6.
 |9	|Hapus artikel|	Berhasil|
 |10	|Dark mode toggle|	Tema berubah, tersimpan|
 |11	|Semua operasi async|	Fetch API bekerja, toast muncul|
+
+## 6.2 Skenario Uji UAS
+
+| No | Skenario | Hasil |
+|----|----------|-------|
+| 1 | Registrasi akun baru | Berhasil, redirect login |
+| 2 | Login valid | Masuk dashboard, waktu login tampil |
+| 3 | Tambah kategori | Berhasil |
+| 4 | Edit kategori | Berhasil |
+| 5 | Hapus kategori tanpa artikel | Berhasil |
+| 6 | Hapus kategori yang dipakai artikel | Gagal (pesan error) |
+| 7 | Tambah penulis dengan foto | Foto tersimpan di storage |
+| 8 | Hapus penulis tanpa artikel | Berhasil, foto ikut terhapus |
+| 9 | Tambah artikel dengan gambar | Berhasil |
+| 10 | Edit artikel (ganti gambar) | Gambar lama terhapus |
+| 11 | Hapus artikel | Berhasil |
+| 12 | Halaman utama publik | Menampilkan 5 artikel terbaru + widget kategori |
+| 13 | Filter kategori | Artikel tersaring |
+| 14 | Detail artikel + artikel terkait | Tampil lengkap, 5 artikel terkait |
+| 15 | Klik artikel terkait | Pindah ke detail lain |
+| 16 | Tombol kembali ke beranda | Berfungsi |
+| 17 | Logout | Kembali ke login |
+
+## 6.3 Hasil Pengujian
+Semua skenario berhasil. Aplikasi UTS dan UAS berfungsi tanpa error, memenuhi semua spesifikasi.
+---
+## 7. Kesimpulan
+### 7.1 Kesimpulan
+- UTS berhasil membangun CMS dengan PHP native, CRUD asynchronous, dark mode, dan keamanan dasar.
+
+- UAS berhasil mengembangkan aplikasi blog dengan Laravel, mencakup autentikasi, CRUD, dan halaman publik (5 artikel terbaru, filter kategori, detail + 5 artikel terkait).
+
+- Semua fitur UAS terpenuhi: halaman publik tanpa login, controller terpisah, layout sendiri, tampilan bersih dan responsif.
+
