@@ -1,7 +1,7 @@
 # Sistem Manajemen Blog (CMS) - UTS Pemrograman Web
 
-**Nama:** [Nama Lengkap Anda]  
-**NIM:** [NIM Anda]  
+**Nama:** [Naufal Ghali Rahadi]  
+**NIM:** [240605110161]  
 **Mata Kuliah:** Pemrograman Web  
 **Semester:** Genap 2025/2026
 
