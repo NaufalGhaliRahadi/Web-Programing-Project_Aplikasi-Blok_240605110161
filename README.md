@@ -326,7 +326,7 @@ Semua skenario berhasil. Aplikasi UTS dan UAS berfungsi tanpa error, memenuhi se
 - Semua fitur UAS terpenuhi: halaman publik tanpa login, controller terpisah, layout sendiri, tampilan bersih dan responsif.
 
 ---
----
+###
 ---
 # Aplikasi Blog - 240605110161
 
@@ -435,7 +435,7 @@ php artisan serve
 
 - Username: admin
 
--- Password: 12345678 (atau sesuai akun yang dibuat)
+- Password: 12345678 (atau sesuai akun yang dibuat)
 
 Catatan: Pastikan database db_blog sudah ada dengan tabel penulis, kategori_artikel, artikel (dari UTS). Jika belum, import file db_blog.sql yang tersedia di folder UTS/ repositori ini.
 
